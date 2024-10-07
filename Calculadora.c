@@ -12,21 +12,21 @@ int main ()
   int a = 0, b = 0, operation = 0;
   int option;
 
-  printf("Dime que quieres realizar: \n");
+  printf("Dime, ¿qué deseas realizar? \n");
   printf("1 .- Suma\n");
   printf("2 .- Resta\n");
-  printf("3 .- Multiplicacion\n");
-  printf("4 .- Division\n");
+  printf("3 .- Multiplicación\n");
+  printf("4 .- División\n");
   scanf("%d", &option);
 
 
 
   do
   {
-    printf("Dame numeros:\n");
-    printf("numero 1: ");
+    printf("Dame dos números:\n");
+    printf("número 1: ");
     scanf("%d", &a);
-    printf("numero 2: ");
+    printf("número 2: ");
     scanf("%d", &b);
 
     switch (option)
@@ -47,12 +47,12 @@ int main ()
 
     printf("El resultado de la operacion es: %d\n", operation);
 
-    printf("Quieres hacer otra operacion: \n");
+    printf("¿Quieres hacer otra operación? \n");
     printf("1 .- Suma\n");
     printf("2 .- Resta\n");
-    printf("3 .- Multiplicacion\n");
-    printf("4 .- Division\n");
-    printf("Deseas salir: \n");
+    printf("3 .- Multiplicación\n");
+    printf("4 .- División\n");
+    printf("¿Deseas salir? \n");
     printf("-1 .- Salir\n");
     scanf("%d", &option);
   }
